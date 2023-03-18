@@ -25,7 +25,7 @@
 #2. Start of tomcat configuration 
 
 #Tomcat server configuration:
-find / -name server.xml context.xml
+find / -name context.xml
 vim /opt/tomcat9/conf/server.xml
 vi /opt/tomcat9/webapps/manager/META-INF/context.xml
 vi /opt/tomcat9/conf/tomcat-users.xml  # to add user
